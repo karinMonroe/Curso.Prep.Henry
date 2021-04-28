@@ -8,4 +8,16 @@
 
 
 
+	Las variables son valores
+
+	Strings, son valores que no son numericos, son alfanumericos
+
+	Funciones, son codigo que devuelve un valor, pueden pasarse argumentos o no. 
+
+	Declaraciones if, se usa para preguntar si el argumento(valor) cumple con una condicion
+
+	Valores booleanos, true = afirmativo, false = negativo.
+
+
+
 	
