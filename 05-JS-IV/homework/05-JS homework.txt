@@ -1,0 +1,43 @@
+# Homework: Javascript IV
+
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos.  Coleccion de propiedades
+		Ejemplo: 
+		var objeto = {}
+
+	* Propiedades. Es una asociacion entre un nombre (o clave) y un valor.
+		Ejemplo:
+		var objeto = {
+			nombre : 'karin',
+			edad: 47,
+			cursando = true,
+			saludar = function (){
+				console.log('hola','toni');
+			}}
+		}
+		objeto['nombre']    // 'karin'
+		o
+		objeto.nombre       // karin    . esto se llama DOT NOTATION
+
+		delete toni.nombre;   //borra la propiedad
+
+	* Métodos. son las funciones dentro de un array. 
+
+	* Bucle `for…in`
+		es una secuencia que se repite segun lo especificado.
+		se declara variable, cantidad de veces que se repite, suma i para continuar
+
+		ejemplo :
+		for( var i = 0; i< 5; i++){
+			//lo que hace
+		}
+
+	* Notación de puntos vs notación de corchetes
+		corchetes es para Arrays ---> arreglos
+		: es para asignar valor a las propiedades de los objetos
+
+
+	
