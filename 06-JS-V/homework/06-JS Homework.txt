@@ -1,0 +1,41 @@
+# Homework: Javascript V
+
+## Instrucciones
+---
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+
+* _Constructors_ (de Clases)
+	son funciones que nos permiten construir objeto. Como si fuera
+	una fabrica de objetos.
+
+	Ejemplo
+	function Car(marca, cv, color) = {
+		this.marca = marca;
+		this.cv= cv;
+		this.color = color;
+	}
+
+
+    --- aca instancio  la funcion 
+	var audi = new Car('audi', 1500,'verde') ;
+
+	o tambien 
+
+	function Car(marca, cv, color) = {
+		this.marca = marca || 'audi';
+		this.cv= cv || 123;
+		this.color = color || 'negro';
+	}
+
+	
+
+	* `prototype`
+        El prototipo es el diseño original de un objeto. 
+
+		objeto.__proto__   // me dice cual es su proptotipo	
+
+		var lista = [ 1,2 3];
+		lista.push  // donde push tiene definida esta propiedad en el constructor inicial de array por ejemplo 
+
+
